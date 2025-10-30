@@ -6,4 +6,4 @@ const apiLimiter = rateLimit({
   message: "Rate limit exceeded. Please try again later",
 });
 
-modulle.exports = apiLimiter;
+module.exports = apiLimiter;
